@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    }
+
+body{
+    background-color:#191816;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    }
+
+main{
+        width: 50%;
+        height: 100%;
+    }
+main > div:nth-child(1){
+       
+    margin: 50px 25px 25px 100px ;
+    }
+main > div:nth-child(1) > img{
+}
+
+body  >main >div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+
+}
+
+form{
+    display: flex;
+    background-color:#24221f;
+    color: #afb6c2;
+    padding: 50px;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+form h1{
+    color:#d4ccb6;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+label > div{
+    float: left;
+    width: 90%;
+    height: 40px;
+    border: 1px solid grey;
+    outline: none;
+
+}
+
+
+.focus:focus{
+    outline: none;
+    border: 4px solid yellow;
+
+}
+
+label > div> input:focus {
+    
+}
+
+
+label > div> p {
+    float: left;
+    width: 20%;
+    height: 100%;
+    border: none;
+}
+
+label> div>input{
+    float: left;
+    height: 100%;
+    width: 80%;
+    border: none;
+    color: #afb6c2;
+    background-color: #24221f;
+    font-size: 10px;
+
+}
+
+#input_password {
+    background: url(./imagens/mail.svg) center no-repeat;
+
+}
+
+#input_email{
+    background: url(./imagens/eye.svg) center no-repeat;
+}
+
+.button{
+   
+    width: 100%;
+   }
+
+.button > button{
+    display: flex;
+    justify-content: center;
+    background-color: #ffc632;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder ;
+}
+.lembre_esqueci {
+    display: flex;
+    justify-content: space-between;
+width: 100%;
+background-color: #191816;
+font-size: 10px;
+
+}
+
+.lembre_esqueci > p{
+    float: left;
+}
+.not_account{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 10px;
+}
+
+a { 
+    text-decoration: none;
+    color: #ffc632;
+
+}
+
+input [type='checkbox']{
+    background-color: aqua;
+}
+
+aside{
+    width: 50%;
+    height: 100%;
+    background-image: url(./imagens/side-image.jpg)  ;
+    background-size:  100% 100%  ;
+
+}
+
